@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    font-family: "Nanum Myeongjo", sans serif;
+}
+
+.header{
+    background-color: #87CEEB;
+    display: flex;
+    text-align: centre;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #483D8B
+}
+
+.menu {
+    display: flex;
+    margin: 0;
+    flex-wrap: wrap;
+    padding-left: 130px
+}
+
+.row {
+    display: block;
+    direction: row;
+}
+    
+.border {
+    margin-top: 0;
+    width: 500px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.middle {
+    text-align: center;
+}
+
+.order-summary, .cart, .total {
+    font-family: "Cormorant";
+    text-align: center;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.total {
+    font-size: 30px;
+}
+
+.modal {
+    position: fixed;
+    text-align: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 300px;
+    width: 350px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 6px 2px #666;
+    background-color: #800000;
+    color: whitesmoke;
+}
+
+.modal-inner{
+    width: 290px;
+    margin: 0 auto;
+}
+
+.modal-close-btn {
+    font-size: 22px;
+    font-weight: bold;
+    background-color: transparent;
+    border: 1px solid transparent;
+    color: whitesmoke;
+}
+
+.close-modal-btn-container {
+    text-align: right;
+    margin: 9px;
+
+}
